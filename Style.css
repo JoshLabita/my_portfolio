@@ -282,17 +282,8 @@ textarea{
 @media (max-width: 768px){
 
     .header{
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .navbar{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-        margin-top: 10px;
-    }
+    flex-direction: column;
+}
 
     .home,
     .about{
@@ -300,28 +291,12 @@ textarea{
         text-align: center;
     }
 
-    .home{
-        padding-top: 120px;
-    }
-
-    .home-img img{
-        width: 250px;
-        height: 250px;
-    }
-
-    .about-img img{
-        width: 220px;
-        height: 220px;
+    .navbar{
+        display: none;
     }
 
     .input-box{
         flex-direction: column;
-    }
-
-    .edu-box{
-        flex-direction: column;
-        text-align: center;
-        gap: 20px;
     }
 
 }
